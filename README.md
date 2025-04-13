@@ -20,3 +20,10 @@ a standard copy of Clang: I sourced mine via Homebrew. (`brew install llvm`)
 
 # Run it!
 This can be executed in Qemu without a bootloader via `-kernel bin/kernel.elf`
+
+# Useful Resources
+Here are some external resources which may help you further in your journey :)
+- [OSDev: LLVM Information (Clang)](https://wiki.osdev.org/LLVM)
+- [OSDev: Bare Bones](https://wiki.osdev.org/Bare_Bones)
+- [LLVM Clang: Cross Compilation](https://clang.llvm.org/docs/CrossCompilation.html)
+- [OSDev: LLVM Cross Compiler](https://wiki.osdev.org/LLVM_Cross-Compiler)
