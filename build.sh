@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p bin
 clang -target i686-none-elf -ffreestanding -c -o bin/kernel.o sys/kernel.c
 clang -target i686-none-elf -ffreestanding -c -o bin/i686-arch.o arch/i686/arch.S
