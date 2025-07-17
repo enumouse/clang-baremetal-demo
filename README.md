@@ -1,8 +1,8 @@
-# clang-kernel-demo
-A primitive demo of Clang being used to compile a super simple 'kernel' (loose term) 
-for the i686 (x86) architecture. While this is not a full kernel, this demo shows a super 
+# clang-baremetal-demo
+A primitive demo of Clang being used to compile a super simple baremetal application
+for the i686 (x86) architecture. While this is very primitive amnd 'scrappy', it shows a super 
 minimal example of getting bare-metal software to compile using Clang. This demo is based on 
-this [project](https://github.com/Henje/x86-Toy-OS/) to help me focus purely on build aspects.
+this [project](https://github.com/Henje/x86-Toy-OS/) but ported to Clang
 
 ![Screenshot](.github/screenshot.png)
 
